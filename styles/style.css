@@ -1,19 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 /* shared styles */
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Azeret Mono", monospace;
-    
+
 }
-.poppins{
+
+.poppins {
     font-family: "Poppins", sans-serif;
 }
-.body-container{
-    background-image: linear-gradient(#E6EDF9,#9DE5FF);
+
+.body-container {
+    background-image: linear-gradient(#E6EDF9, #9DE5FF);
 }
-.btn-primary{
+
+.btn-primary {
     background-color: #FFA500;
     border: none;
     font-size: 16px;
@@ -27,94 +30,104 @@
 }
 
 
-.contact-section img{
-     
+.contact-section img {
+
     list-style: none;
-   margin-left: 30px;
-    
+    margin-left: 30px;
+
 
 }
 
 /* hearder section styles */
 
 /* hero section */
-.hero-container{
-     margin: 10px 50px 24px 50px;
-     display: flex;
-     justify-content: space-between;
-     /* align-items: center; */
-     align-items:  baseline;
-     
-     
+.hero-container {
+    margin: 10px 50px 24px 50px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    align-items: baseline;
+
+
 
 }
-.career,.io{
+
+.career,
+.io {
     font-size: 28px;
     font-weight: bolder;
     color: #0D1321;
 }
-.io{
+
+.io {
     color: #FFA500;
 }
 
 /* header  */
-.header-container{
-   
+.header-container {
+
     text-align: center;
     margin-bottom: 100px;
- 
-    
-    
+
+
+
 }
-.header{
+
+.header {
     padding-top: 90px;
 }
-.header1{
-     background-color: #EEEEEE;
-     margin: 20px 50px 24px 50px;
-    /* padding-top: 100px; */
-     border-radius: 16px;
 
-     
-    
-   
+.header1 {
+    background-color: #EEEEEE;
+    margin: 20px 50px 24px 50px;
+    /* padding-top: 100px; */
+    border-radius: 16px;
+
+
+
+
 }
-.header1 button{
+
+.header1 button {
     margin-bottom: 40px;
-     
+
 }
-.header1 p{
+
+.header1 p {
     font-weight: 400;
     font-size: 16px;
-    color:#0D1321 ;
+    color: #0D1321;
     opacity: 70%;
-     
+
 }
-.header-container img{
+
+.header-container img {
     padding-top: 40px;
     padding-bottom: 32px;
 }
-.header-container h2{
+
+.header-container h2 {
     font-size: 48px;
     font-weight: bolder;
     color: #0D1321;
-     
+
 }
 
- 
+
 
 
 /* blog seciton styles */
-.blog-containt p{
-     text-align: center;
-     font-size: 16px;
-     font-weight: 400;
-     color: #0D1321;
-     opacity: 70%;
-     margin-bottom: 10px;
+.blog-containt p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0D1321;
+    opacity: 70%;
+    margin-bottom: 10px;
 
 }
-.blog-frame-container{
+
+.blog-frame-container {
     display: flex;
     background-color: #E6EDF9;
     margin: 48px 50px 100px 50px;
@@ -123,14 +136,16 @@
     justify-content: center;
     align-items: center;
 }
-.blog-frame-container h3{
+
+.blog-frame-container h3 {
     font-size: 24px;
     font-weight: bold;
     color: #0D1321;
     line-height: 2;
 
 }
-.blog-frame-container img{
+
+.blog-frame-container img {
     padding: 48px;
     padding-left: 60px;
     padding-right: 30px;
@@ -138,30 +153,37 @@
     height: auto;
 }
 
-/* inspiration section */
-.inspiration-container{
-   background-image: linear-gradient(#B8E7FA,#B8E7FA);
-   width: 87.5%;
-   margin: 0 auto 100px auto;
+/* inspiration styles section */
+
+
+.inspiration-container {
+    background-image: linear-gradient(#B8E7FA, #B8E7FA);
+    width: 87.5%;
+    margin: 0 auto 100px auto;
 }
-.inspiration{
+
+.inspiration {
     background-color: #FFFFFF;
 
 }
-.inspiration-contant{
+
+.inspiration-contant {
     padding: 0 124px 48px 124px;
 }
-.inspiration-video{
-     
+
+.inspiration-video {
+
     padding: 32px;
     border: solid 1px #0D1321;
     border-radius: 16px;
 }
-.video{
+
+.video {
     border-radius: 16px;
 
 }
-.inspiration-contant p{
+
+.inspiration-contant p {
     font-family: "Azeret Mono", monospace;
     color: #0D1321;
     font-size: 16px;
@@ -174,117 +196,230 @@
 
 /* service section */
 
-.service-section{
-    background-image: linear-gradient(#B8E7FA,#B8E7FA);
+.service-section {
+    background-image: linear-gradient(#B8E7FA, #B8E7FA);
     padding: 30px 90px 178px 90px;
 }
 
-.service-title{
+.service-title {
     text-align: center;
-     
+
 }
-.title1{
+
+.title1 {
     margin-bottom: 24px;
     font-size: 32px;
     font-weight: 800;
     text-align: center;
-     
-}
-.title2{
-      
-     font-weight: 400;
-     font-size: 16px;
-     color: #0D1321;
-     opacity: 70%;
-     line-height: 2;
-
 
 }
 
-.card-service{
+.title2 {
+
+    font-weight: 400;
+    font-size: 16px;
+    color: #0D1321;
+    opacity: 70%;
+    line-height: 2;
+
+
+}
+
+.card-service {
     /* display: flex;
     gap: 30px; */
-     background-image: linear-gradient(#B8E7FA,#B8E7FA);
-     margin-top: 48px;
-      /* padding: 30px 90px 178px 90px; */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      justify-content: space-evenly;
-      gap: 83px;
-     
-
-    
-
-    /* display: grid;
-    
-    grid-template-columns: repeat(3,1fr);
-     */
-}
-.card{
-    border-radius: 18px;
-    width: 363px;
-    height: auto;
- 
-    /* background-image: linear-gradient(#B8E7FA,#B8E7FA); */
-    padding: 40px;
-
-    background: #9DE5FF;
-    background-image: linear-gradient(#E6EDF9,#9DE5FF);
-    /* box-shadow: 0 2px 20px 0 #cac2c2; */
-    /* opacity: 0.6; */
-    
-    /* justify-content: center;
+    background-image: linear-gradient(#B8E7FA, #B8E7FA);
+    margin-top: 48px;
+    /* padding: 30px 90px 178px 90px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     justify-content: space-evenly;
-    align-items: center; */
-    /* box-shadow: 0 2px 10px 0 red ; */
-   
+    gap: 83px;
 }
-.card h4{
+
+.card {
+    border-radius: 18px;
+    width: 15rem;
+    height: auto;
+    padding: 40px;
+    background: #9DE5FF;
+    background-image: linear-gradient(#E6EDF9, #9DE5FF);
+}
+
+.card h4 {
     font-weight: 800;
     font-size: 24px;
     color: #0D1321;
 }
-.card p{
+
+.card p {
     font-size: 16px;
     font-weight: bold;
     color: #0D1321;
 }
-.card img{
+
+.card img {
     padding-bottom: 30px;
     width: 56px;
     height: 56px;
 }
-.title1{
-     
-}
-.title2{
+
+.title1 {}
+
+.title2 {
     margin-top: 20px;
 }
-.des{
+
+.des {
     text-decoration: underline;
     margin-top: 20px;
 }
 
 
 /* footer section styles */
-footer{
+footer {
     width: 87.5%;
     background-image: none;
     background-color: #FFFFFF;
     margin: 32px auto 32px auto;
     background-color: none;
 }
-.footer-title{
+
+.footer-title {
     font-size: 20px;
     font-weight: 500;
     color: black;
 
 }
-.footer-section{
+
+.footer-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+
+
+
+/* responsive media */
+@media screen and (max-width:576px) {
+    .hero-container {
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+    }
+
+    .hero-container p {}
+
+    .header1,
+    .blog-containt {
+        flex-direction: column;
+        text-align: left;
+        text-align: justify;
+    }
+
+    .button1 {
+        display: flex;
+        margin-left: 24px;
+
+
+    }
+
+    .display {
+
+        width: calc(100%- 20px);
+        font-weight: 400;
+    }
+
+    .header1 {
+        padding-bottom: 20px;
+
+    }
+
+    .blog-containt {
+        flex-direction: column;
+        margin-left: 20px;
+        text-align: left;
+        text-align: justify;
+    }
+
+    .footer-section {
+        flex-direction: column;
+
+    }
+
+    .footer-title {
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+
+    .service-section h1,
+    .h {
+        text-align: left;
+        margin-left: -60px;
+        margin-right: -40px;
+    }
+
+    .card-service {
+        flex-direction: column;
+        /* width: 50%; */
+        width: 60%;
+
+
+        /* padding-left: 20px;
+       padding-right: 20px; */
+
+
+
+    }
+
+    .card {
+        margin-left: 60px;
+        padding-left: 10px;
+    }
+
+
+    .inspiration-contant {
+        margin-left: -100px;
+        margin-right: -100px;
+        text-align: justify;
+    }
+
+    .inspiration-contant p {
+        text-align: left;
+    }
+
+    .inspiration-video {
+        padding: 0;
+        padding-left: 10px;
+
+        border: none;
+
+    }
+
+    .inspiration {
+        border-radius: 16px;
+        padding: 20px;
+
+    }
+
+    .video {
+        width: calc(100% - 10px);
+    }
+
+    .blog {
+        margin-left: 10px;
+        /* margin-left: -10px; */
+     
+    }
+
+    .blogp {
+        text-align: left;
+        padding: 10px;
+    }
+
+
 }
 
 
@@ -320,7 +455,7 @@ footer{
 }
 .service{
     /* width: 100%; */
-    /* margin: 48px 90px 178px 90px; 
+/* margin: 48px 90px 178px 90px; 
 
 }
 
@@ -360,13 +495,13 @@ footer{
 
 .card img {
     /* border-radius: 100%; */
-    /* width: 100%; */
-    /* margin-top: 20px;
+/* width: 100%; */
+/* margin-top: 20px;
     padding-top: 80px;
     padding-left: 140px;
     padding-right: 140px; */
-    /* background-color: #EBDCFF; */
-    /* background-color: #872BFF; 
+/* background-color: #EBDCFF; */
+/* background-color: #872BFF; 
     position: absolute;
     /* justify-content: center;
     align-items: center; 
