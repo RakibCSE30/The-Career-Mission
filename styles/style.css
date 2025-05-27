@@ -164,6 +164,8 @@
 
 .inspiration {
     background-color: #FFFFFF;
+    border-radius: 16px;
+    padding-top: 20px;
 
 }
 
@@ -319,13 +321,13 @@ footer {
         text-align: justify;
         margin: 12px;
         padding: 10px;
-       
+
     }
 
     .button1 {
         display: flex;
         margin-left: 24px;
-        
+
 
 
     }
@@ -418,41 +420,90 @@ footer {
     .blog {
         margin-left: 10px;
         /* margin-left: -10px; */
-     
+
     }
 
     .blogp {
         text-align: left;
         padding: 10px;
     }
-    .frame-contant{
+
+    .frame-contant {
         margin-left: -30px;
     }
-    .frame-img{
+
+    .frame-img {
         margin-top: 20px;
         margin-left: -90px;
         padding-right: 10px;
         flex: 1;
         /* overflow: hidden; */
     }
+
     .frame-img img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
-    .blog-frame-container{
-        
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .blog-frame-container {
+
         margin-left: 5px;
         margin-right: 5px;
         flex-direction: column;
     }
-    .img{
+
+    .img {
         width: 100%;
     }
 
 
 
 }
+
+
+/* medium device responsive  */
+@media screen and (min-width: 576px) and (max-width: 991.98px) {
+    .inspiration-video {
+        padding: 0;
+        padding-left: 10px;
+
+        border: none;
+
+    }
+
+    .inspiration-video {
+        padding: 10px;
+        /* optional, keep consistent */
+        border: none;
+        width: 100%;
+    }
+
+
+    .inspiration {
+        border-radius: 16px;
+        padding: 20px;
+
+    }
+
+    .video {
+        width: calc(100% - 10px);
+        width: 100%;
+        margin-left: -10px;
+        max-width: 100%;
+        height: 400px;
+        display: block;
+    }
+    .card{
+        
+        
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+    }
+     
+}
+
 
 
 
