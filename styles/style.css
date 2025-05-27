@@ -317,11 +317,15 @@ footer {
         flex-direction: column;
         text-align: left;
         text-align: justify;
+        margin: 12px;
+        padding: 10px;
+       
     }
 
     .button1 {
         display: flex;
         margin-left: 24px;
+        
 
 
     }
@@ -330,6 +334,9 @@ footer {
 
         width: calc(100%- 20px);
         font-weight: 400;
+        padding-left: 10px;
+        padding: 10px;
+        margin: 10px;
     }
 
     .header1 {
@@ -418,6 +425,31 @@ footer {
         text-align: left;
         padding: 10px;
     }
+    .frame-contant{
+        margin-left: -30px;
+    }
+    .frame-img{
+        margin-top: 20px;
+        margin-left: -90px;
+        padding-right: 10px;
+        flex: 1;
+        /* overflow: hidden; */
+    }
+    .frame-img img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+    .blog-frame-container{
+        
+        margin-left: 5px;
+        margin-right: 5px;
+        flex-direction: column;
+    }
+    .img{
+        width: 100%;
+    }
+
 
 
 }
